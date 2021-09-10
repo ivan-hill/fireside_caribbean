@@ -23,8 +23,8 @@ const Hero = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeroContent>
         <HeroItems>
-          <HeroH1>Fireside Caribbean Food</HeroH1>
-          <HeroP>Ready in 60 seconds</HeroP>
+          <HeroH1>Old-fashioned Taste</HeroH1>
+          <HeroP>Just around the corner</HeroP>
           <HeroBtn>Place Order</HeroBtn>
         </HeroItems>
       </HeroContent>
