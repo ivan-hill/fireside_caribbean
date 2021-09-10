@@ -6,9 +6,10 @@ export const Nav = styled.nav`
   background: transparent;
   height: 80px;
   display: flex;
-  justify-content: center;
+  padding:10px;
+  justify-content: left;
   font-weight: 700;
-  right: 200px;
+  left: 0;
 `;
 
 export const NavLink = styled(Link)`
@@ -33,10 +34,7 @@ export const NavIcon = styled.div`
   right: 0;
   cursor: pointer;
   color: #fff;
-  p {
-    transform: translate(-175%, 100%);
-    font-weight: bold;
-  }
+
 `;
 
 export const Bars = styled(FaFire)`
