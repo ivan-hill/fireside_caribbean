@@ -28,7 +28,7 @@ const Navbar = ({ toggle }) => {
      <Nav scrollNav={scrollNav}>
         <NavLink to='/' onClick={toggleHome}>FIRESIDE CARIBBEAN FOOD</NavLink>
         <NavIcon onClick={toggle}>
-          <p>Menu</p>
+          
           <Bars />
         </NavIcon>
       </Nav>
